@@ -1,0 +1,3 @@
+The SortedDictionary group of classes re-implement NSDictionary using a data structure that keeps entries sorted at all times, while maintaining efficient access. SortedDictionary lets you enumerate entries according to their forward or reverse key order efficiently and without having to sort them first.
+
+Enumeration of an entire sorted dictionary occurs at O(n) time. Get/Set/Add/Delete operations all complete at O(log n) time. Internally, a self balancing binary tree is used to hold key-value pairs and maintain the performance characteristics.
